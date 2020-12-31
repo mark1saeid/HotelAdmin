@@ -184,20 +184,20 @@ holder.setphone(model.getPhone());
 
         }
         public void setfood(String food){
-            TextView textView = mView.findViewById(R.id.ordername);
+            TextView textView = mView.findViewById(R.id.orderfood);
             textView.setText(food);
         }
         public void setnights(String nights){
             TextView textView = mView.findViewById(R.id.ordernights);
-            textView.setText(nights);
+            textView.setText(nights+" Day");
         }
         public void setadults(String adults){
             TextView textView = mView.findViewById(R.id.orderadult);
-            textView.setText(adults);
+            textView.setText(adults+" Adult");
         }
         public void setchild(String child){
             TextView textView = mView.findViewById(R.id.orderchildren);
-            textView.setText(child);
+            textView.setText(child+" Child");
         }
 
 
